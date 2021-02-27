@@ -20,5 +20,11 @@ class AdminsTableSeeder extends Seeder
             'email'     =>  'nunoalf@hotmail.com',
             'password'  =>  bcrypt('tribalwars'),
         ]);
+
+        Admin::create([
+            'name'      =>  $faker->name,
+            'email'     =>  'abelsouto10@hotmail.com',
+            'password'  =>  bcrypt('abelxpto10'),
+        ]);
     }
 }

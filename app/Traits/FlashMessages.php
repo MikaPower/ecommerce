@@ -36,7 +36,6 @@ trait FlashMessages
     protected function setFlashMessage($message, $type)
     {
         $model = 'infoMessages';
-
         switch ($type) {
             case 'info': {
                 $model = 'infoMessages';
